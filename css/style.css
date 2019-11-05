@@ -207,6 +207,9 @@ header .intro-text {
 	margin: 20px 0;
 	color: #0ba2db;
 }
+#coming-soon {
+	padding: 120px 0 140px 0;
+}
 /* Pricing Section */
 #pricing {
 	padding: 120px 0 140px 0;
