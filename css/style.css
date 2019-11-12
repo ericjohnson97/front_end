@@ -209,6 +209,7 @@ header .intro-text {
 }
 #coming-soon {
 	padding: 120px 0 140px 0;
+	background: #F6F6F6;
 }
 /* Pricing Section */
 #pricing {
@@ -318,7 +319,6 @@ header .intro-text {
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
-	background: #F6F6F6;
 }
 #contact form {
 	padding: 30px 0;
