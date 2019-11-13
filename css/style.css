@@ -132,7 +132,9 @@ hr {
 	display: table;
 	width: 100%;
 	padding: 0;
-	background: url(../img/intro-bg.jpg) no-repeat center center;
+	/*background: url(../img/intro-bg.jpg) no-repeat center center;*/
+	/*background: url(../img/segmentation.png) no-repeat center center;*/
+	background: url(../img/laptopwork.jpg) no-repeat center center;
 	background-color: #e5e5e5;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
@@ -209,6 +211,7 @@ header .intro-text {
 }
 #coming-soon {
 	padding: 120px 0 140px 0;
+	background: #F6F6F6;
 }
 /* Pricing Section */
 #pricing {
