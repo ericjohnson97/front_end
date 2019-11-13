@@ -318,10 +318,23 @@ header .intro-text {
 .pricing-table .plan-signup a {
 	text-transform: uppercase;
 }
+
+
+.coming-soon-table .training {
+	padding: 25px 0;
+}
+.coming-soon-table .labor {
+	padding: 25px 0;
+}
+
+.coming-soon-table .training .labor span {
+	font-size: 18px;
+	line-height: 18px;
+}
+
 /* Contact Section */
 #contact {
 	padding: 120px 0 60px 0;
-	background: #F6F6F6;
 }
 #contact form {
 	padding: 30px 0;
