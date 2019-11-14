@@ -322,12 +322,14 @@ header .intro-text {
 
 .coming-soon-table .training {
 	padding: 25px 0;
+	/*width: 200px;*/
 }
 .coming-soon-table .labor {
 	padding: 25px 0;
-}
-
-.coming-soon-table .training .labor span {
+	/*width: 200px;*/
+}	
+.coming-soon-table .training .labor {
+	display: flex;
 	font-size: 18px;
 	line-height: 18px;
 }

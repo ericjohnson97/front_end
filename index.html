@@ -207,23 +207,32 @@
 
     <h2>Coming Soon</h2>
     <div class="row">
-        <span>
+      
         <div class="coming-soon-table">
-
-          <div class="training">
-           <h3>Training Services and Professional Annotation Services</h3>
-            <p>Database generation, professional annotation, and AI training services. End to end, hands-off deep learning, all for one low price. Coming soon. </p>
-            <p>Interested? We don't blame you. Sign up to be the first to know via email. </p>
-            <a href="#" class="btn btn-custom btn-lg page-scroll">Sign up here</a> 
+          <div class="col-md-6 col-sm-6">
+            <div class="training">
+             <h3>Training Services and Professional Annotation Services</h3>
+              <p>Database generation, professional annotation, and AI training services. End to end, hands-off deep learning, all for one low price. Coming soon. </p>
+              <p>Interested? We don't blame you. Sign up to be the first to know via email. </p>
+              <a href="#" class="btn btn-custom btn-lg page-scroll">Sign up here</a> 
+            </div>
           </div>
-          <div class="labor">
-            <h3>Training Services and Professional Annotation Services</h3>
-            <p>Database generation, professional annotation, and AI training services. End to end, hands-off deep learning, all for one low price. Coming soon. </p>
-            <p>Interested? We don't blame you. Sign up to be the first to know via email. </p>
-            <a href="#" class="btn btn-custom btn-lg page-scroll">Sign up here</a> 
+          <div class="col-md-6 col-sm-6">
+            <div class="labor">
+              <h3>Training Services and Professional Annotation Services</h3>
+              <p>Database generation, professional annotation, and AI training services. End to end, hands-off deep learning, all for one low price. Coming soon. </p>
+              <p>Interested? We don't blame you. Sign up to be the first to know via email. </p>
+
+              <form action="emails/email.php" method="post">
+                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
+                <div id="success"></div>
+                <input type="submit">
+                <button type="submit" class="btn btn-custom btn-lg">Sign Up</button> 
+              </form>
+              <!-- <a href="#" class="btn btn-custom btn-lg page-scroll">Sign up here</a>  -->
+            </div>
           </div>
         </div>
-      </span>
     </div>
   </div>
 </div>
@@ -232,13 +241,13 @@
 <!-- Contact Section -->
 <div id="contact" class="text-center">
   <div class="container">
-    <div class="section-title center">
+    <!-- <div class="section-title center">
       <h2>Contact Us</h2>
       <hr>
       <p>Questions? Comments? Need to rant about your ex? Contact us below.</p>
     </div>
-    <div class="col-md-8 col-md-offset-2">
-      <form name="sentMessage" id="contactForm" novalidate>
+    <div class="col-md-8 col-md-offset-2"> -->
+      <!-- <form name="sentMessage" id="contactForm" novalidate>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">
@@ -259,7 +268,7 @@
         </div>
         <div id="success"></div>
         <button type="submit" class="btn btn-custom btn-lg">Send Message</button>
-      </form>
+      </form> -->
       <div class="social">
         <ul>
           <li><a href="https://twitter.com/WeTrainAI"><i class="fa fa-twitter"></i></a></li>
