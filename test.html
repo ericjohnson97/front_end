@@ -1,6 +1,18 @@
- <form action="email.php" method="POST">
-                <input type="email" id="email" class="form-control" placeholder="Email" required="required">
-                <div id="success"></div>
-                <input type="submit">
-<!-- <button type="submit" class="btn btn-custom btn-lg">Sign Up</button>  -->
+<script type="text/javascript">var submitted=false;</script>
+
+<iframe 
+  name="hidden_iframe" 
+  id="hidden_iframe" 
+  style="display:none;" 
+  onload="if(submitted) {window.location = 'http://wetrain.ai';}">
+</iframe>
+
+
+<form id="subscribeForm"     action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeCbLZKZO9xwS_RZTd1PR-UZeqvyClwdbEw71NXSlri18lO9g/formResponse" 
+  method="POST" 
+target="hidden_iframe"
+onsubmit="submitted=true;">
+
+
+<input id="emailaddress" type="email" name="entry.1191037744" placeholder="Email"><input id="subscribe" type="submit" value="submit">
 </form>
